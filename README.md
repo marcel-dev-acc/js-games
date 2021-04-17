@@ -8,3 +8,6 @@ When you want to create a new game, simply create a new folder with you game nam
 Each game folder must have at least two files in it: `main.html` and `game.js`, and one folder `assets` which should hold your sprite sheet.
 1) main.html contains you single page application where you game loads into
 2) game.js contains all your javascript code
+
+## To run in a local host environment
+Testing can be done locally invoking the command `python3 -m http.server 8001` in the root directory.
