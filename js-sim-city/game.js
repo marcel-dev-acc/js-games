@@ -104,7 +104,7 @@ function hideGreeting() {
 function createGameGrid() {
     document.getElementById('root').innerHTML = '<table id="game-table"></table>';
     // Get rounded height - vertical
-    let verticalCubeCount = Math.floor((displayHeight / cubeSize) * 0.85); // Leave space for buttons and controls
+    let verticalCubeCount = Math.floor((displayHeight / cubeSize) * 0.95); // Leave space for buttons and controls
     // console.log('Height calculations');
     // console.log(verticalCubeCount);
     // Get rounded width - horizontal
